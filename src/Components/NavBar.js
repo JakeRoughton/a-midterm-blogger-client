@@ -50,17 +50,3 @@ const NavBar = () => {
   }
 
 export default NavBar
-
-
-
-
-/*
-			<h3>{auth.userEmail && `Current User: ${auth.userEmail}`}</h3>
-			<Link className='navBarLink' to="/">Home</Link>
-            <Link className='navBarLink' to="/blogs">Blogs</Link>
-			<Link className='navBarLink' to="/registration">Registration Form</Link>
-			<Link className='navBarLink' to="/login">Login Form</Link>
-			<button onClick={()=>{
-				auth.logout()
-			}}>Logout</button>
-*/
